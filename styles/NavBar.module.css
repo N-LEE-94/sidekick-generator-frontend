@@ -1,0 +1,13 @@
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #de0a26;
+  width: 100vw;
+  height: 6.5vh;
+}
+
+.div h1 {
+  color: white;
+}

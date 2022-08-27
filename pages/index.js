@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { NavBar } from '../components/NavBar';
+import { DisplayCreature } from '../components/DisplayCreature';
+import { StatBlock } from '../components/StatBlock';
 
 export default function Home() {
   return (
@@ -15,12 +16,9 @@ export default function Home() {
       <NavBar/>
 
       <main className={styles.main}>
-        <h1> Hello! </h1>
+        <DisplayCreature/>
       </main>
 
-      <footer className={styles.footer}>
-      {/* Restart Button and Confirm Creature Button here */}
-      </footer>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import "../node_modules/vellum-monster/lib/monster"
+
 
 export default function Document() {
   return (
